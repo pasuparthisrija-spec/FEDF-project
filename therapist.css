@@ -1,0 +1,43 @@
+.therapistContainer{
+  background:#fffaf8;
+  min-height:100vh;
+  padding:50px;
+}
+
+.therapistContainer h1{
+  text-align:center;
+  color:#4b3558;
+  margin-bottom:40px;
+}
+
+.therapistGrid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+}
+
+.therapist-card{
+  background:white;
+  padding:20px;
+  border-radius:20px;
+  text-align:center;
+  box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.therapist-card h2{
+  color:#4b3558;
+}
+
+.therapist-card p{
+  color:#7a6a82;
+}
+
+.therapist-card span{
+  color:#d86ca3;
+}
+.therapist-image{
+  width:100%;
+  height:280px;
+  object-fit:cover;
+  border-radius:15px;
+}

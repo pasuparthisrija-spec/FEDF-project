@@ -1,0 +1,14 @@
+.footer{
+  background:#fff5f8;
+  text-align:center;
+  padding:30px;
+  border-top:1px solid #f0d8e4;
+}
+
+.footer h2{
+  color:#6b4c7b;
+}
+
+.footer p{
+  color:#7a6a82;
+}

@@ -1,0 +1,56 @@
+.hero{
+  min-height:85vh;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:60px;
+  background:linear-gradient(
+    135deg,
+    #fff8f5,
+    #fceef4
+  );
+}
+
+.hero-left h1{
+  font-size:65px;
+  color:#4b3558;
+}
+
+.hero-left span{
+  color:#d86ca3;
+}
+
+.hero-left p{
+  color:#6b5d73;
+  margin-top:20px;
+  line-height:1.8;
+}
+
+.tag{
+  color:#d86ca3;
+}
+
+.hero-buttons button{
+  background:linear-gradient(
+    90deg,
+    #b56de3,
+    #ec6fa9
+  );
+  color:white;
+  border:none;
+  padding:14px 25px;
+  border-radius:30px;
+}
+
+.secondary-btn{
+  background:white !important;
+  color:#6b4c7b !important;
+  border:1px solid #e7cfd9 !important;
+}
+
+.service-preview{
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
